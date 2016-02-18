@@ -1613,6 +1613,16 @@
 		text-align: center;
 	}
 
+/* SVG Logos */
+
+.logos {
+    fill: #008bbc;
+}
+
+.background {
+    fill: #008bbc;
+}
+
 /* Icons */
 
 	.icon {
@@ -1620,6 +1630,7 @@
 		text-decoration: none;
 	}
 
+        }
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
