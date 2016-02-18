@@ -1,6 +1,5 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
-
 /*
 	TXT by HTML5 UP
 	html5up.net | @n33co
@@ -1208,7 +1207,6 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
 			border-radius: 8px;
 		}
 
@@ -1615,6 +1613,16 @@
 		text-align: center;
 	}
 
+/* SVG Logos */
+
+.logos {
+    fill: #008bbc;
+}
+
+.background {
+    fill: #008bbc;
+}
+
 /* Icons */
 
 	.icon {
@@ -1622,6 +1630,7 @@
 		text-decoration: none;
 	}
 
+        }
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -1639,7 +1648,7 @@
 
 	#banner-wrapper {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/RedBanner.jpg");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
@@ -1648,7 +1657,7 @@
 
 	#main-wrapper {
 		background: #fff;
-		border-top: solid 5px #b1ddab;
+		border-top: solid 5px #5e5555;
 		border-bottom: solid 5px #c1cac5;
 	}
 
@@ -1674,7 +1683,7 @@
 			font-family: 'Open Sans Condensed', sans-serif;
 			font-weight: 700;
 			text-transform: uppercase;
-			color: #575d59;
+			color: #5e5555;
 		}
 
 		#banner .button {
@@ -1977,7 +1986,7 @@
 						position: relative;
 						display: block;
 						text-decoration: none;
-						color: #6b7770;
+						color: #5e5555;
 						top: -6px;
 						padding: 6px 1.5em 0.25em 1.5em;
 						border-bottom-left-radius: 6px;
@@ -1990,22 +1999,22 @@
 					}
 
 					#nav li:hover a, #nav li:hover span {
-						background: #C1CAC5;
+						background: #5e5555;
 						color: #fff;
 					}
 
 					#nav li.active a, #nav li.active span {
-						background: #C1CAC5;
+						background: #5e5555;
 						color: #fff;
 					}
 
 					#nav li.current a {
-						background: #b1ddab;
+						background: #e00606;
 						color: #fff;
 					}
 
 			.dropotron {
-				background: #6B7770;
+				background: #5e5555;
 				color: #fff;
 				border-radius: 6px;
 				line-height: 2.75em;
@@ -2029,12 +2038,12 @@
 
 				.dropotron li:hover > a, .dropotron li:hover > span {
 					color: #fff;
-					background: #7B8780;
+					background: #5e5555;
 				}
 
 				.dropotron li.active > a, .dropotron li.active > span {
 					color: #fff;
-					background: #7B8780;
+					background: #5e5555;
 				}
 
 				.dropotron li:first-child {
@@ -2052,7 +2061,7 @@
 						left: 50%;
 						margin-left: -1em;
 						top: -0.65em;
-						border-bottom: solid 1em #6B7770;
+						border-bottom: solid 1em #5e5555;
 						border-left: solid 1em transparent;
 						border-right: solid 1em transparent;
 					}
